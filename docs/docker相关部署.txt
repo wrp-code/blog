@@ -1,0 +1,2 @@
+1. docker部署redis
+docker run -d --name redis --restart always -v /opt/redis/data:/data -v /opt/redis/conf/redis.conf:/etc/redis/redis.conf -p 6379:6379 redis:latest redis-server /etc/redis/redis.conf

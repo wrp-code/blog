@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/blog
+    username: postgres
+    password: SDFN293RSONVFDSV098UJ23Q9E0POQEJNM
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: wqeoirj2390jnhgvfED
+auth:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥   HMAC-SHA算法32字节
+    secret-key: wejr8293ENF8920PPOSQg34
+    # 设置jwt过期时间 毫秒
+    ttl: 7200000
+    # 设置前端传递过来的令牌名称
+    token-name: Authorization
+
+file:
+  directory: /wrp/nginx-1.26.2/html/files
+
+load:
+  path: /wrp/blog/publish

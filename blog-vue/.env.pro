@@ -1,0 +1,1 @@
+VITE_APP_BASE_API=http://47.109.107.187/api
